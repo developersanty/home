@@ -1,0 +1,11 @@
+.all-blocks {
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 60%;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+#slidecontainer {
+  width: 100%;
+}

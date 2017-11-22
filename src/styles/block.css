@@ -1,0 +1,134 @@
+.block {
+    border:1px dotted gray;
+    padding: 10px;
+    margin-top: 5px;
+//  box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+  box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.16), inset 0px -2px 7px 0px rgba(0,0,0,0.1), inset 0px 2px 0px 0px rgba(255,255,255,0.3);
+    background: white;
+    border-radius: 5px;
+}
+
+.contentEditableWrapper {
+  user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  -moz-user-select: text;
+  vertical-align: bottom;
+}
+
+.edit-area {
+  margin-top: 5px;
+  background: whitesmoke;
+  cursor: auto;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
+  color: #2F4F4F;
+  letter-spacing: -0.5px;
+
+}
+
+.delete {
+  width: 15px;
+  height: 10px;
+  background: red;
+  border-radius: 0px;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  margin-left: 2px;
+}
+
+.block-header {
+  margin-bottom: 5px;
+}
+
+.day-reader {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    padding: 3px 8px 3px 8px;
+    background: darkgray;
+    border-radius: 3px;
+    margin-top: -3px;
+
+}
+
+.date-reader {
+    vertical-align: top;
+    padding: 3px 8px 3px 8px;
+    border-radius: 3px;
+    margin-top: -26px;
+    text-align: center;
+}
+
+.card-top-done {
+    // border: 2px solid #5cb85c;
+}
+
+.card-top-failed {
+    // border: 2px solid #d9534f;
+}
+
+.card-top-pending {
+    // border: 2px solid darkgray;
+}
+
+.rating {
+  display: inline-block;
+  float: right;
+}
+
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+}
+
+.status-updater {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    position: relative;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px dotted solid;
+    box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.16), inset 0px -2px 7px 0px rgba(0,0,0,0.1), inset 0px 2px 0px 0px rgba(255,255,255,0.3);
+    cursor: pointer;
+    border-radius: 10%;
+    color: white;
+    vertical-align: sub;
+    border: 1px solid black;
+}
+
+.status-updater:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+    top:10;
+}
+
+.status-updater:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
+.units {
+  background: whitesmoke;
+  padding: 3px;
+  border-radius: 3px;
+  margin-top: 5px;
+}

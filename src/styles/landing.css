@@ -1,0 +1,13 @@
+.registration {
+  padding: 100px;
+  width: 50%;
+}
+
+.login {
+  padding: 100px;
+  width: 50%;
+}
+
+.failed-auth {
+  color: red;
+}

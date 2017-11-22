@@ -1,0 +1,207 @@
+.App-logo {
+  height: 50px;
+  width: auto;
+}
+
+.App-header {
+  background-color: white;
+  height: 50px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  // box-shadow: 3px 3px 1px 0px goldenrod;
+  box-shadow: 0px 0px 1px 0px grey;
+}
+
+.google-button {
+
+}
+
+.google-login {
+  margin-top: 10px;
+  background: white;
+}
+
+.login-link {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.forgot-link {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.register-link {
+  margin-top: 15px;
+}
+
+.ribbon {
+  position: relative;
+  height: 50px;
+  width: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: red;
+  display: inline-block;
+
+}
+
+html {
+  // background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/squairy_light.png");
+    background: lightgrey;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-size: 16px;
+  font-family: "Georgia,Times,serif";
+  color: navy;
+}
+
+.pending, .Pending {
+  background: lightgrey;
+}
+
+.pending-color {
+  color: gray;
+}
+
+.failed-color {
+  color: red;
+}
+
+.done-color {
+  color: white;
+}
+
+.failed {
+  background: #d9534f;
+}
+
+.done {
+  background: darkseagreen;
+}
+
+.all-content {
+  padding: 0.5%;
+}
+
+
+.app-title {
+  color: black
+}
+
+.unit-button {
+  display: inline-block;
+  background: whitesmoke;
+  color: gray;
+  background: white;
+  border-radius: 10%;
+  box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.16), inset 0px -2px 7px 0px rgba(0,0,0,0.1), inset 0px 2px 0px 0px rgba(255,255,255,0.3);
+  width:20px;
+  margin-right: 5px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.push {
+  margin-bottom: 50px;
+}
+
+.log-out {
+  float: right;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.wrapper {
+  background: white;
+  position: relative;
+}
+.ribbon-wrapper-green {
+  position: absolute;
+  top: -12px;
+}
+.ribbon-green {
+  color: black;
+  font-family: "American Typewriter";
+  font-size: 14px;
+  text-align: right;
+  -webkit-transform: rotate(0deg);
+  -moz-transform:    rotate(0deg);
+  -ms-transform:     rotate(0deg);
+  -o-transform:      rotate(0deg);
+  position: relative;
+  padding: 3px 0;
+  padding-left: 30px;
+  padding-right: 5px;
+  left: -14px;
+  top: 8px;
+  border-radius: 5px 5px 5px 0px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  background-color: gainsboro;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45));
+  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45);
+  color: #6a6340;
+}
+.ribbon-green:before {
+  content: "";
+  border-top:   3px solid #6e8900;
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+.ribbon-green:before {
+  left: 0;
+}
+
+.meter {
+  display: inline-block;
+}
+
+.btn-big-red {
+  background-color: gray;
+  background-image: linear-gradient(167deg, rgba(255,255,255, 0.1) 50%, rgba(0,0,0, 0) 55%), linear-gradient(top, rgba(255,255,255, 0.15), rgba(0,0,0, 0));
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px grey inset, 0 0 0 0px rgba(255,255,255, 0.15) inset, 0 0px 0 0 #AD3002, 0 1px 0 1px rgba(0,0,0, 0.4), 0 2px 8px 1px rgba(0,0,0, 0.5);
+  color: #FFF;
+  display: inline-block;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin: 30px 0 10px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0,0,0, 0.5);
+  text-decoration: none !important;
+  top: 0;
+  transition:.15s;
+}
+.btn-big-red:hover, .btn-big-red:focus {
+  background-color: gray;
+  color:#fff;
+}
+.btn-big-red:active {
+  box-shadow: 0 0 0 1px gray inset, 0 0 0 1px rgba(255,255,255, 0.15) inset, 0 0 0 1px rgba(0,0,0, 0.4);
+
+}
+
+
+

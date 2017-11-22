@@ -1,0 +1,25 @@
+.triggers {
+  display: block;
+}
+
+.trigger-options {
+  margin-top: 5px;
+}
+
+.Select {
+    display: inline-block;
+    width: 100%;
+}
+
+.trigger-remove {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.Select-control {
+  background: whitesmoke !important;
+}
+.Select-value {
+  color: navy !important;
+  background: whitesmoke !important;
+}

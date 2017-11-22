@@ -1,0 +1,53 @@
+.inspiration-bar {
+  background: white;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px dotted gray;
+  border-radius: 5px;
+  height: 300px;
+  box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.16), inset 0px -2px 7px 0px rgba(0,0,0,0.1), inset 0px 2px 0px 0px rgba(255,255,255,0.3);
+
+}
+
+.analytics-bar {
+  background: white;
+  padding: 5px;
+  border: 1px dotted gray;
+  border-radius: 5px;
+  height: 300px;
+  box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.16), inset 0px -2px 7px 0px rgba(0,0,0,0.1), inset 0px 2px 0px 0px rgba(255,255,255,0.3);
+
+}
+
+.analytics-content {
+  margin: 0 auto;
+  padding: 0px 20px;
+  border-radius: 3px;
+  }
+
+.inspiration-content {
+  margin: 0 auto;
+  padding: 0px 20px;
+  border-radius: 3px;
+}
+
+.item {
+  border-radius: 3px;
+  text-align: center;
+  padding: 3px;
+}
+
+.slick-prev, .slick-next {
+  border-radius: 10px;
+}
+
+.analytics-title {
+  display: inline-block;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 19.2%;
+  margin-left: 5px;
+  vertical-align: top;
+}
